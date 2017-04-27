@@ -19,6 +19,10 @@ class Store {
     }
   }
 
+  getState () {
+    return this.state;
+  }
+
 }
 
 export default Store;
